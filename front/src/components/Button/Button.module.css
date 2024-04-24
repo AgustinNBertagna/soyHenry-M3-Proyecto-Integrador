@@ -1,0 +1,28 @@
+.button {
+  background-color: white;
+  border: 2px solid black;
+  font-weight: 800;
+  font-size: large;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+.disabledButton {
+  font-weight: 800;
+  font-size: large;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gray;
+  color: black;
+}

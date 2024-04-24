@@ -1,0 +1,58 @@
+.contactContainer {
+  margin: auto;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+    li {
+      margin: 16px;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      border: 2px solid black;
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      transition: all 0.3s ease;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      &:hover {
+        background: black;
+        transform: scale(1.075);
+
+        img {
+          filter: drop-shadow(0 0 1rem rgb(255, 255, 255));
+        }
+
+
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+}

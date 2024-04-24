@@ -1,0 +1,79 @@
+.navbarContainer {
+  margin-bottom: 20px;
+  display: flex;
+  background: white;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.logoContainer {
+  width: 25%;
+  margin: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: start;
+  gap: 10px;
+
+  img {
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.navItemsContainer {
+  margin: 15px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  button {
+    padding: 16px;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      cursor: pointer;
+      color: white;
+      background-color: black;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.userContainer {
+  margin: 15px;
+  display: flex;
+  justify-content: end;
+  width: 25%;
+
+  img {
+    padding: 10px;
+    background-color: white;
+    border-radius: 200px;
+    width: 80px;
+    height: 80px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
